@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.h4i"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGER" />
+15-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:9:22-79
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <application
+30-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:11:5-40:19
+31        android:allowBackup="true"
+31-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:12:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] C:\Users\PC\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:13:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:14:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:15:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:16:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.H4i" >
+40-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:17:9-41
+41        <activity
+41-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:18:9-20:40
+42            android:name="com.example.h4i.Activity.UploadActivity"
+42-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:19:13-52
+43            android:exported="false" />
+43-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:20:13-37
+44        <activity
+44-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:21:9-23:40
+45            android:name="com.example.h4i.Activity.DoctorActivity"
+45-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:22:13-52
+46            android:exported="false" />
+46-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:23:13-37
+47
+48        <meta-data
+48-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:25:9-27:54
+49            android:name="com.google.android.geo.API_KEY"
+49-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:26:13-58
+50            android:value="@string/google_map_key" />
+50-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:27:13-51
+51
+52        <activity
+52-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:29:9-37:20
+53            android:name="com.example.h4i.Activity.StartActivity"
+53-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:30:13-51
+54            android:exported="true" >
+54-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:31:13-36
+55            <intent-filter>
+55-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:32:13-36:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:33:17-69
+56-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:33:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:35:17-77
+58-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:35:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <receiver android:name="com.example.h4i.AlarmReceiver" />
+62-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:39:9-51
+62-->C:\Users\PC\Desktop\H4i\H4i\app\src\main\AndroidManifest.xml:39:19-48
+63
+64        <service
+64-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\PC\.gradle\caches\transforms-3\3b2a90618966fd6214a79f88f02c7b44\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:26:9-30:63
+65            android:name="androidx.room.MultiInstanceInvalidationService"
+65-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\PC\.gradle\caches\transforms-3\3b2a90618966fd6214a79f88f02c7b44\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:27:13-74
+66            android:directBootAware="true"
+66-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\PC\.gradle\caches\transforms-3\3b2a90618966fd6214a79f88f02c7b44\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:28:13-43
+67            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+67-->[androidx.room:room-runtime:2.5.0-alpha01] C:\Users\PC\.gradle\caches\transforms-3\3b2a90618966fd6214a79f88f02c7b44\transformed\room-runtime-2.5.0-alpha01\AndroidManifest.xml:29:13-37
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\PC\.gradle\caches\transforms-3\3b07e2cb99dbcffbca1e8dc00c0f7e74\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+71
+72        <provider
+72-->[com.squareup.picasso:picasso:2.71828] C:\Users\PC\.gradle\caches\transforms-3\98b11ff93e8cbe5b61e371a1fa7db518\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+73            android:name="com.squareup.picasso.PicassoProvider"
+73-->[com.squareup.picasso:picasso:2.71828] C:\Users\PC\.gradle\caches\transforms-3\98b11ff93e8cbe5b61e371a1fa7db518\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+74            android:authorities="com.example.h4i.com.squareup.picasso"
+74-->[com.squareup.picasso:picasso:2.71828] C:\Users\PC\.gradle\caches\transforms-3\98b11ff93e8cbe5b61e371a1fa7db518\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+75            android:exported="false" />
+75-->[com.squareup.picasso:picasso:2.71828] C:\Users\PC\.gradle\caches\transforms-3\98b11ff93e8cbe5b61e371a1fa7db518\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\c6e76a880633cf92f5f1ad558a3993d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC\.gradle\caches\transforms-3\b8a5f4095fee31c403c47d4a0721106f\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+88            android:authorities="com.example.h4i.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PC\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PC\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PC\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+96        </provider>
+97    </application>
+98
+99</manifest>
